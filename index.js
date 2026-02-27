@@ -1,2 +1,14 @@
-let nome = prompt("qual é o seu nome:")
-alert("boa noite, " + nome + "!")
+const db = require('./db');
+
+// O comando SELECT busca os dados
+const sql = 'SELECT * FROM Livros';
+
+db.query(sql, (err, results) => {
+  if (err) {
+    console.error('Erro ao buscar dados: ' + err.message);
+    return;
+  }
+
+  console.log('--- Livros Encontrados ---');
+  console.table(results); // O .table mostra os dados formatados como uma tabela!
+});
