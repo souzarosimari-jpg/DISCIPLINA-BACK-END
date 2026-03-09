@@ -12,3 +12,4 @@ db.query(sql, (err, results) => {
   console.log('--- Livros Encontrados ---');
   console.table(results); // O .table mostra os dados formatados como uma tabela!
 });
+

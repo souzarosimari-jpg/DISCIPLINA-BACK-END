@@ -1,0 +1,14 @@
+{
+  "name": "rosy_dds_2026",
+  "version": "1.0.0",
+  "description": "aula 1 back end",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rosimari",
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^3.18.2"
+  }
+}

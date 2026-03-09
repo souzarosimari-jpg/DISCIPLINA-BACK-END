@@ -1,3 +1,4 @@
+
 const mysql = require('mysql2');
 
 // Cria a configuração da conexão
